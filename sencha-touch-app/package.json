@@ -1,0 +1,40 @@
+{
+  "name": "sencha-touch-app",
+  "version": "0.1.0",
+  "description": "This is an awesome project to make everyone happy!",
+  "scripts": {
+    "build": "grunt build",
+    "test": "grunt test",
+    "doc": "grunt doc"
+  },
+  "bin": {
+    "sencha-touch-app": "./bin/sencha-touch-app"
+  },
+  "engines" : { "node" : ">=0.8.0" },
+  "keywords": [
+    "jsx",
+    "web",
+    "canvas"
+  ],
+  "homepage": "https://github.com/shibukawa/sencha-touch-app",
+  "bugs": {
+    "url": "https://github.com/shibukawa/sencha-touch-app/issues"
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shibukawa/sencha-touch-app.git"
+  },
+  "devDependencies": {
+    "sencha-touch.jsx": "~0.1.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-jsx": ">=0.1.3"
+  },
+  "author": "shibukawa",
+  "license": "MIT"
+}
